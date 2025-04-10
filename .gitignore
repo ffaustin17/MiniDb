@@ -1,0 +1,38 @@
+#ignore build output
+/build/
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+#ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+MakeFile
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+
+#ignore generated project files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.sdf
+*.opensdf
+*.idb
+*.pdb
+
+#ignore VS Code
+.vscode
+*.code-workspace
+
+#OS specific junk
+.DS_Store
+Thumbs.db
